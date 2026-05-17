@@ -1,0 +1,14 @@
+{
+  "name": "investiq",
+  "version": "1.0.0",
+  "private": true,
+  "description": "INVESTIQ – run backend and loan app together",
+  "scripts": {
+    "start": "run.bat",
+    "start:backend": "cd Finanace-Planner/backend && node server.js",
+    "start:loan": "cd Finanace-Planner/loan && node server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
